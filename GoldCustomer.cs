@@ -6,7 +6,7 @@ namespace AccessModifiers1
   {
     public void OfferVouchar()
     {
-      this.
+      var rating = this.CalculateRating(excludeOrders: true);
     }
   }
 }

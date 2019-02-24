@@ -1,6 +1,6 @@
 using System;
 
-namespace AccessModifiers1
+namespace Amazon
 {
     public class Customer
     {
