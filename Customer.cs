@@ -9,7 +9,7 @@ namespace AccessModifiers1
 
       public void Promote()
       {
-        var rating = CalculateRating();
+        var rating = CalculateRating(excludeOrders: true);
         if (rating == 0)
           System.Console.WriteLine("Promoted to Level1");
         else  
