@@ -6,8 +6,8 @@ namespace AccessModifiers1
     {
         static void Main(string[] args)
         {
-            var customer = new Customer();
-            
+            var customer = new Amazon.Customer();
+            Amazon.RateCalculator calculator = new RateCalculator();
         }
     }
 }
